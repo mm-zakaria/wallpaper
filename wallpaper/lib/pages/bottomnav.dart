@@ -34,10 +34,10 @@ class _BottomnavState extends State<Bottomnav> {
   Widget build(BuildContext context) {
     return Scaffold(
       bottomNavigationBar: CurvedNavigationBar(
-       backgroundColor: Colors.white,
-        buttonBackgroundColor: Colors.black,
-        height: 65,
-        color: Colors.black,
+       backgroundColor: Color.fromARGB(255, 11, 10, 31),
+        buttonBackgroundColor: Colors.pink, //255 10 16 66
+        height: 75,
+        color: Color.fromARGB(255, 10, 16, 66),
         animationDuration: Duration(microseconds: 500),
         onTap: (int index) {
           setState(() {

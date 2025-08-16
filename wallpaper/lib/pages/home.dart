@@ -15,7 +15,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //backgroundColor: Color.fromARGB(255, 18, 18, 18),
+      backgroundColor: Color.fromARGB(255, 11, 10, 31),
       body: Container(
         margin: EdgeInsets.only(top: 60.0, left: 20.0, right: 20.0),
         child: Column(
@@ -26,7 +26,7 @@ class _HomeState extends State<Home> {
                 style: TextStyle(
                   fontSize: 25.0,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black,
+                  color: Colors.white,
                   fontFamily: "Poppins",
                 ),
               ),
